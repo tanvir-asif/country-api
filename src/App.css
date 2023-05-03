@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+.country-box{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+.country{
+  border: 2px solid #bf9109;
+  margin: 10px;
+  padding: 20px;
+}
